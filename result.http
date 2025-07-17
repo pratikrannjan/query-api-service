@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/v1/cdr/query
+Content-Type: application/json
+
+{
+  "record_date_start": "2025-07-01 00:00:00",
+  "record_date_end": "2025-07-20 00:00:00",
+  "msisdn": "9876543210",
+  "imsi": "123456789012345"
+}
